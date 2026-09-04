@@ -56,8 +56,9 @@ black_king |= square_bit(Square::E8);
 black_queens |= square_bit(Square::D8);
 
 black_pieces = black_pawns | black_rooks | black_knights | black_bishops | black_king | black_queens;
+occupied_squares = white_pieces | black_pieces;
 
-print_board({white_pieces, black_pieces});
+print_board({occupied_squares});
 
 return 0;
 }
