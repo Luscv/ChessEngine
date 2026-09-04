@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include "chess/core/types.h"
 
 using Bitboard = std::uint64_t;
 
