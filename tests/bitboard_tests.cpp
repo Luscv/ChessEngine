@@ -1,5 +1,6 @@
-#include "Bitboard.h"
-#include "BoardPrinter.h"
+#include "chess/core/Bitboard.h"
+#include "chess/io/BoardPrinter.h"
+#include "chess/core/types.h"
 
 int main() {
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "BoardPrinter.h"
+#include "chess/io/BoardPrinter.h"
 
 void print_board(std::initializer_list<Bitboard> boards){
     Bitboard combined = 0ULL;
